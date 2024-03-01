@@ -37,6 +37,4 @@ if PlatoBoost and Library then
     })
 
     return Configuration
-else
-    warn("Không thể tải PlatoBoost hoặc Library")
 end
