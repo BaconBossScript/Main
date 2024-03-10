@@ -10,7 +10,7 @@ local Configuration = {
 Library:CreateWindow({
     title = "BaconBoss | Key System",
     description = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
-    serverCode = "discord.gg/H9jXustXMK",
+    serverCode = "discord.gg/CZUEJBDtkZ",
     onStartup = function()
         local isNeedKey = not (isfile(Configuration.FileName) and PlatoBoost:verify(readfile(Configuration.FileName)))  
         
